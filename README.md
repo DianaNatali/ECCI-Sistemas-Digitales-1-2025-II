@@ -1,9 +1,11 @@
 # Sistemas Digitales 1
 
-## Profesor
+## Profesores
 ```
 Diana Natali Maldonado Ramírez
 dmaldonador@ecci.edu.co
+Eduin Culma
+jculmac@ecci.edu.co
 ```
 
 ## Descripción 
