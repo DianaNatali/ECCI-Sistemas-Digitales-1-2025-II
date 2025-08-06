@@ -95,17 +95,17 @@ STM32CubeIDE es un entorno de desarrollo integrado (IDE) diseñado para programa
 
     2. Hacer clic en el botón ```Get Software```.
 
-        ![get_sw](/ECCI-Sistemas-Digitales-1-2025-II/labs/figs/lab00/get_sw.png)
+        ![get_sw](/labs/figs/lab00/get_sw.png)
 
     3. Descargar la versión ```1.12.1``` de acuerdo a su sistema operativo.
 
-        ![get_sw](/ECCI-Sistemas-Digitales-1-2025-II/labs/figs/lab00/version_12.png)
+        ![get_sw](/labs/figs/lab00/version_12.png)
 
     4. Aceptar el *License Agreement*.
 
     5. Crear una cuenta o continuar como invitado *Download as a guest* si no desea crear la cuenta. 
 
-        ![get_sw](/ECCI-Sistemas-Digitales-1-2025-II/labs/figs/lab00/guest.png)
+        ![get_sw](/labs/figs/lab00/guest.png)
 
 
     5. Se descargará el ```.zip``` que contiene el instalador.
