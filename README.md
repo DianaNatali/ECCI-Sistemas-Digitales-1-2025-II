@@ -11,6 +11,32 @@ Este curso está orientado a desarrollar en los estudiantes las competencias nec
 
 Durante el curso, se abordarán temáticas fundamentales como la estructura del lenguaje ```C```, la configuración de puertos de entrada/salida, el manejo de interrupciones y la utilización de módulos internos del microcontrolador. Estos contenidos se integrarán en actividades prácticas enfocadas al diseño y validación de soluciones funcionales, permitiendo a los estudiantes aplicar los conceptos estudiados en contextos de automatización reales.
 
+
+## Metodología
+El curso se desarrollará mediante sesiones teórico-prácticas que permitirán la comprensión y aplicación de conceptos fundamentales en sistemas embebidos. La metodología se centra en el aprendizaje activo, a través del desarrollo de laboratorios que fomentan la autonomía, la argumentación técnica y el trabajo con herramientas de desarrollo profesional.
+
+Cada laboratorio estará estructurado en tres componentes fundamentales:
+
+* **Documentación técnica** en GitHub Classroom:
+    Los estudiantes deberán documentar cada laboratorio en un archivo README.md dentro del repositorio asignado. Esta documentación debe ser clara, precisa y técnica, e incluir:
+
+    * Descripción técnica de lo que se realizó en el laboratorio.
+
+    * Diagramas esquemáticos, de bloques y/o de flujo, según corresponda
+
+    * Código fuente organizado y funcional, debidamente comentado
+
+    * Instrucciones para la compilación, carga y ejecución del proyecto
+
+* **Sustentación individual: ** Cada estudiante deberá sustentar de manera individual su comprensión del laboratorio, la lógica del código desarrollado, la configuración del microcontrolador y la solución implementada. Se evaluará la claridad conceptual, la argumentación técnica y la capacidad de resolver preguntas relacionadas con su implementación.
+
+* **Evaluación del funcionamiento** 
+    Se calificará el funcionamiento del laboratorio, su desempeño frente a los requerimientos propuestos y la preparación previa del laboratorio. Esto implica:
+
+    * Asistencia con los elementos necesarios: PC, microcontrolador seleccionado, software requerido instalado y componentes electrónicos completos.
+
+    * Presentación funcional del prototipo desarrollado.
+
 ## Cronograma
 
 <table>
