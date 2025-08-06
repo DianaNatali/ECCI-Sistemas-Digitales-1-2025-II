@@ -24,7 +24,7 @@ Durante el curso, se abordarán temáticas fundamentales como la estructura del 
   <tr>
     <td>1-2</td>
     <td>Instalación de herramientas</td>
-    <td><a href="/ECCI-Sistemas-Digitales-1-2025-II/labs/00_lab00/README.md">lab00</a></td>
+    <td><a href="/labs/00_lab00/README.md">lab00</a></td>
     <td>-</td>
   </tr>
   <tr>
