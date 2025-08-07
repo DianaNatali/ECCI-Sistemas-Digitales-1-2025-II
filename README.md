@@ -32,7 +32,7 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
 
     * Instrucciones para la compilación, carga y ejecución del proyecto
 
-* **Sustentación individual: ** Cada estudiante deberá sustentar de manera individual su comprensión del laboratorio, la lógica del código desarrollado, la configuración del microcontrolador y la solución implementada. Se evaluará la claridad conceptual, la argumentación técnica y la capacidad de resolver preguntas relacionadas con su implementación.
+* **Sustentación individual:** Cada estudiante deberá sustentar de manera individual su comprensión del laboratorio, la lógica del código desarrollado, la configuración del microcontrolador y la solución implementada. Se evaluará la claridad conceptual, la argumentación técnica y la capacidad de resolver preguntas relacionadas con su implementación.
 
 * **Evaluación del funcionamiento** 
     Se calificará el funcionamiento del laboratorio, su desempeño frente a los requerimientos propuestos y la preparación previa del laboratorio. Esto implica:
