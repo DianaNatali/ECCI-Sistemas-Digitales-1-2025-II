@@ -59,5 +59,14 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
     <td>-</td>
   </tr>
   <tr>
+  <tr>
+    <td>3</td>
+    <td>Blinker</td>
+    <td><a href="/labs/01_lab01/README.md">lab01</a></td>
+    <td>Link</td>
+    <td>19 de agosto</td>
+  </tr>
+  <tr>
+
 
 
