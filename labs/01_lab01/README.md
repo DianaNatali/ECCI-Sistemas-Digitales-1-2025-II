@@ -18,7 +18,13 @@
 
 ## 2. Fundamentos teóricos
 
-Consultar la siguiente documentación.
+* Consultar la siguiente [documentación](/labs/01_lab01/presentacion1.pdf).
+
+* Consultar los manuales de los microcontroladores:
+
+    * [STM32](/labs/01_lab01/stm32_reference_manual.pdf)
+
+    * [ESP32 datasheet](/labs/01_lab01/esp32_reference_manual.pdf) y [ESP32 programming guide](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
 
 ## 3. Materiales y herramientas
 
