@@ -1,72 +1,76 @@
-# Lab 02: Blinker en Bare-Metal vs HAL vs FreeRTOS con STM32CubeIDE y ESP-IDF
+# Lab 01: Blinker: Bare Metal, API y RTOS
 
 ## 1. Objetivos de aprendizaje
 
-1. Aprender a programar microcontroladores STM32 y ESP32 usando diferentes niveles de abstracción: Bare-Metal, HAL (API de alto nivel) y FreeRTOS.
 
-2. Comparar ventajas y desventajas de cada enfoque en complejidad, portabilidad y consumo de recursos.
+1. Comprender la diferencia entre programación de bajo nivel (bare metal) y programación con APIs de alto nivel.
 
-## 2. Materiales y herramientas
+2. Identificar el impacto de un RTOS en la estructura y ejecución del programa.
 
-* STM32
+3. Implementar un mismo ejemplo (blinker) en tres niveles de abstracción:
 
-    * STM32F103C8T6 ("Blue Pill").
+    * Bajo nivel (acceso directo a registros).
 
-    * ST-Link V2 (para programar y depurar el STM32).
+    * API de periféricos.
+
+    * Multitarea con RTOS.
+
+
+## 2. Fundamentos teóricos
+
+Consultar la siguiente documentación.
+
+## 3. Materiales y herramientas
+
+* Para ```STM32```
+
+    * ```STM32F103C8T6``` (**"Blue Pill"**).
+
+    * ```ST-Link V2``` (para programar y depurar el ```STM32```).
 
     * ```STM32CubeIDE``` instalado.
 
-    * Un LED (o usar el LED de la Blue Pill)
 
-    * Resistencia $220$ Ω (si se usa LED externo).
+* Para ```ESP32```
 
-* ESP32
-
-    * ESP32 DevKitC o similar.
+    * ```ESP32 DevKitC``` o similar.
 
     * Cable USB para programación.
 
-    * ESP-IDF instalado.
+    * ```ESP-IDF``` instalado.
 
-    * LED (o usar el LED de la placa)
-
-    * Resistencia $220$ Ω (si se usa LED externo).
 
 ## 3. Procedimiento
-* **Paso 1: Crear tres proyectos independientes para cada plataforma**
 
-    * **Proyecto 1**: Bare-Metal
-    Programar directamente sobre los registros del microcontrolador sin usar librerías adicionales. Permite entender el control de hardware a bajo nivel.
+### Con STM32
 
-    * **Proyecto 2**: HAL / API de alto nivel
-    Usar las librerías oficiales para configuración y control del hardware: STM32Cube HAL para STM32, y ESP-IDF para ESP32. Facilita el desarrollo y mejora la portabilidad.
+1. **Bare Metal Puro**
 
-    * **Proyecto 3**: FreeRTOS
-    Implementar el parpadeo del LED como una tarea dentro del sistema operativo FreeRTOS, para gestionar temporización y multitarea de manera eficiente.
+    * Aceptar la tarea en ```Github Classroom``` para este laboratorio.
 
-* **Paso 2: Configuración del LED**
+    * Crear un proyecto vacío en ```CubeIDE``` como se explica en el tutorial [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
-    * Identificar el pin LED:
+    * En el ```main.c``` implementar el código que se descarga al aceptar la tarea en ```Github Classroom```.
 
-        * STM32: PC13 (LED integrado en Blue Pill).
+    * Compilar y cargar el binario a la blue pill según las indicaciones dadas en [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
-        * ESP32: GPIO2 (generalmente LED integrado).
+2. **API HAL mínima**
 
-    * Configurar el pin como salida digital:
+    * Crear un proyecto vacío en ```CubeIDE``` como se explica en el tutorial [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
-        * En Bare-Metal, configurar registros GPIO.
+    * Seguir los pasos en de la sección[]()
 
-        * En HAL / API, usar funciones de la librería.
+3. **FreeRTOS con tarea**
 
-        * En FreeRTOS, realizar la configuración dentro de la tarea o antes de iniciar el scheduler.
+    * Activar FreeRTOS en CubeMX.
 
-* **Paso 3: Implementación del blinker**
-
-    Aceptar la tarea en Gihub Classroom con códigos fuente para implementarlos en los proyectos previamente creados.
+    * Crear tarea que alterne el LED cada $500$ ms usando ```vTaskDelay()```.
 
 * **Paso 4: Pruebas y comparación**
 
-    * Verificar que el LED parpadee correctamente en los tres proyectos.
+    * Verificar que el LED parpadee correctamente.
+
+    * Documentar detalladamente en el archivo ```README.md``` cada uno de las implementaciones a nivel de registros y funciones, según corresponda a cada enfoque.
 
     * Comparar:
 
@@ -80,8 +84,8 @@
 
 ## 4. Entregables
 
-* Código fuente para cada proyecto y plataforma.
+* Código fuente para cada proyecto.W
 
-* Informe comparativo con observaciones, resultados y conclusiones.
+* Documentación en repositorios con descripción de cada implementación, comparación y conclusiones.
 
 * Evidencias de la implementación.
