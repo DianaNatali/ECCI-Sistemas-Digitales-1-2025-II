@@ -72,7 +72,7 @@ la referencia es: ```STM32F103C8T6```.
     <img src="/labs/figs/lab01/interface.png" alt="interface" width="600">
     </p>
 
-    <span style="color:red;">Project Explorer:</span>
+    <font color="red"><strong>Project Explorer:</strong></font>
 
     * Muestra la estructura del proyecto con carpetas:
     
