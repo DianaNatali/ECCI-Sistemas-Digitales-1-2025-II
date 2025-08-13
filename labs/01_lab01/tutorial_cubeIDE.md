@@ -25,7 +25,7 @@
 2. Menú: ```File → New → STM32 Project```.
 
     <p align="center">
-    <img src="/labs/figs/lab01/proj1.png" alt="proj1" width="400">
+    <img src="/labs/figs/lab01/proj1.png" alt="proj1" width="500">
     </p>
 
     Se desplegará la ventana ```Target Selection```.
@@ -34,7 +34,7 @@
 la referencia es: ```STM32F103C8T6```.
 
     <p align="center">
-    <img src="/labs/figs/lab01/MCU_sel.png" alt="MCU_sel" width="250">
+    <img src="/labs/figs/lab01/MCU_sel.png" alt="MCU_sel" width="300">
     </p>
 
 
@@ -43,7 +43,7 @@ la referencia es: ```STM32F103C8T6```.
 4. En la tabla  **MCUs/MPUs List** seleccionar esta referencia:
 
     <p align="center">
-    <img src="/labs/figs/lab01/MCU_sel1.png" alt="MCU_sel1" width="400">
+    <img src="/labs/figs/lab01/MCU_sel1.png" alt="MCU_sel1" width="500">
     </p>
 
 
@@ -56,7 +56,7 @@ la referencia es: ```STM32F103C8T6```.
     Las demas opciones de configuración se muestran en la siguiente imágen:
 
     <p align="center">
-    <img src="/labs/figs/lab01/proj2.png" alt="proj2" width="400">
+    <img src="/labs/figs/lab01/proj2.png" alt="proj2" width="500">
     </p>
 
 
@@ -69,7 +69,7 @@ la referencia es: ```STM32F103C8T6```.
 8. En la ventana principal de ```STM32CubeIDE``` encontrará lo siguiente:
 
     <p align="center">
-    <img src="/labs/figs/lab01/interface.png" alt="interface" width="400">
+    <img src="/labs/figs/lab01/interface.png" alt="interface" width="600">
     </p>
 
     <span style="color:red;">Project Explorer:</span>
