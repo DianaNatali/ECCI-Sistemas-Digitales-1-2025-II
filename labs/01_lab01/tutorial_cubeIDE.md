@@ -157,7 +157,15 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
 
     1. Abrir el proyecto.
 
-    2. Ir a ```Run Configurations...```:
+    2. Hacer clic en ```Build```:
+
+        <p align="center">
+        <img src="/labs/figs/lab01/build.png" alt="run" width="330">
+        </p>
+
+        Esto creará el binario ```.elf``` a partir del código principal.
+
+    3. Ir a ```Run Configurations...```:
 
         <p align="center">
         <img src="/labs/figs/lab01/run1.png" alt="run" width="530">
@@ -169,20 +177,63 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
         <img src="/labs/figs/lab01/run2.png" alt="run2" width="600">
         </p>
 
-    3. Verificar que en la pestaña ```Main``` de la ventana ```Create, manage, and run configurations``` aparezca el nombre del projecto en la casilla ```Project```y la ruta al archivo binario ```.elf``` en la casilla ```C/C++ Application```, si no, seleccionar la ruta dando clic en el botón ```Search Project...```.
+    4. Verificar que en la pestaña ```Main``` de la ventana ```Create, manage, and run configurations``` aparezca el nombre del projecto en la casilla ```Project```y la ruta al archivo binario ```.elf``` en la casilla ```C/C++ Application```, si no, seleccionar la ruta dando clic en el botón ```Search Project...```.
 
-    4. Verificar en la pestaña ```Debugger``` de la ventana ```Create, manage, and run configurations``` la siguiente configuración:
+    5. Verificar en la pestaña ```Debugger``` de la ventana ```Create, manage, and run configurations``` la siguiente configuración:
 
         <p align="center">
         <img src="/labs/figs/lab01/run3.png" alt="run3" width="600">
         </p>
 
-    5. En esta misma pestaña en la sección ```Interface``` hacer clic en el botón ```Scan``` con lo cual ```STM32CubeIDE``` deberá identificar el número serial del programador ```ST-Link``` que aparecerá en la casilla  ```ST-LINK S/N```.
+    6. En esta misma pestaña en la sección ```Interface``` hacer clic en el botón ```Scan``` con lo cual ```STM32CubeIDE``` deberá identificar el número serial del programador ```ST-Link``` que aparecerá en la casilla  ```ST-LINK S/N```.
 
-    6. Hacer clic en el botón ```Run```.
+    7. Hacer clic en el botón ```Run```.
+
+    8. En la 🔵 **Consola de Depuración** deberán ver lo siguiente:
+
+        <p align="center">
+        <img src="/labs/figs/lab01/run4.png" alt="run4" width="400">
+        </p>
+
+        y luego:
+
+        <p align="center">
+        <img src="/labs/figs/lab01/run5.png" alt="run5" width="400">
+        </p>
+
+    
+## Forzar la programación de la Blue Pill:
+
+En caso de que la programación no sea exitosa y ```STM32CubeIDE``` arroje errores que indican que no se puede establecer una comunicación ```ST-Link``` y la **Blue Pill** se recomienda:
+
+1. Descargar ```STM32CubeProgrammer``` en https://www.st.com/en/development-tools/stm32cubeprog.html. Se recomienda descargar la versión ```2.19.1```.
+
+2. Intalar ```STM32CubeProgrammer``` a través del ejecutable descargado.
+
+3. Abrir ```STM32CubeProgrammer```.
+
+4. Hacer clic en el botón ```Connect```.
+
+    <p align="center">
+    <img src="/labs/figs/lab01/programmer.png" alt="run5" width="280">
+    </p>
+
+    Deberá ver algo como:
+
+    <p align="center">
+    <img src="/labs/figs/lab01/programmer2.png" alt="run5" width="600">
+    </p>
 
 
 
-En “Interface” elegir SWD.
+5. Ir a la ventana ```Erasing & Programming```
 
-Verificar que el dispositivo detectado coincide con tu MCU.
+    <p align="center">
+    <img src="/labs/figs/lab01/programmer3.png" alt="run5" width="600">
+    </p>
+
+6. En la casilla ```File path``` seleccionar la ruta al archivo ```.elf``` generado por la compilación, a travé del botón  ```Browse```.
+
+7. Hacer clic en ```Start programming...```.
+
+

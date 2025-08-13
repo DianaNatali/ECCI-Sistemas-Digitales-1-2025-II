@@ -60,13 +60,13 @@ Consultar la siguiente documentación.
 
     * Seguir los pasos en de la sección[]()
 
-3. **FreeRTOS con tarea** (En construcción )
+3. **FreeRTOS con tarea** (En construcción ⚠️)
 
     * Activar FreeRTOS en CubeMX.
 
     * Crear tarea que alterne el LED cada $500$ ms usando ```vTaskDelay()```.
 
-#### Con ESP32 (En construcción )
+#### Con ESP32 (En construcción ⚠️)
 
 #### Pruebas y comparación**
 
@@ -74,15 +74,15 @@ Consultar la siguiente documentación.
 
 * Documentar detalladamente en el archivo ```README.md``` cada uno de las implementaciones a nivel de registros y funciones, según corresponda a cada enfoque.
 
-    * Comparar:
+* Comparar:
 
-        * Complejidad del código y número de líneas.
+    * Complejidad del código y número de líneas.
 
-        * Facilidad de mantenimiento y portabilidad.
+    * Facilidad de mantenimiento y portabilidad.
 
-        * Consumo de memoria (flash y RAM).
+    * Consumo de memoria (flash y RAM).
 
-        * Flexibilidad para cambiar frecuencia o agregar más tareas.
+    * Flexibilidad para cambiar frecuencia o agregar más tareas.
 
 ## 4. Entregables
 
