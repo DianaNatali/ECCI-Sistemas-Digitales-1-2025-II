@@ -54,7 +54,8 @@ Consultar la siguiente documentación.
 
     * Compilar y cargar el binario a la blue pill según las indicaciones dadas en [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
-2. **API HAL mínima**
+2. **API HAL mínima** (En construcción ⚠️)
+
 
     * Crear un proyecto vacío en ```CubeIDE``` como se explica en el tutorial [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
