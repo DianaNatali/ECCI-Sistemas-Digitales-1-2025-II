@@ -62,8 +62,8 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
   <tr>
     <td>3</td>
     <td>Blinker</td>
-    <td><a href="/labs/01_lab01/README.md">lab01</a></td>
-    <td>Link</td>
+    <td><a href="/labs/01_lab01/README.md">lab01</a></td> 
+    <td> <a href="https://classroom.github.com/a/VjLUJMT0"> Link</a></td>
     <td>19 de agosto</td>
   </tr>
   <tr>

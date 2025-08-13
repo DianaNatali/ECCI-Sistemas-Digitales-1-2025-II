@@ -46,7 +46,7 @@ Consultar la siguiente documentación.
 
 1. **Bare Metal Puro**
 
-    * Aceptar la tarea en ```Github Classroom``` para este laboratorio.
+    * Aceptar la tarea en ```Github Classroom``` para este laboratorio, en la tabla ```Cronograma``` de la página principal del repositorio del curso en la columna ```Entrega (Github Classroom)```.  
 
     * Crear un proyecto vacío en ```CubeIDE``` como se explica en el tutorial [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
