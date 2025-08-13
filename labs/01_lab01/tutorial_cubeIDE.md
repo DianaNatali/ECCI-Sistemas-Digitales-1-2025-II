@@ -24,24 +24,28 @@
 
 2. Menú: ```File → New → STM32 Project```.
 
-    ![proj1](/labs/figs/lab01/proj1.png)
+    <p align="center">
+    <img src="/labs/figs/lab01/proj1.png" alt="proj1" width="400">
+    </p>
 
     Se desplegará la ventana ```Target Selection```.
 
 3. En la sección **MCU/MPU Selector** escoger la referencia del microcontrolador que se va a usar, en la casilla ```Commercial Part Number```. Para el caso de la **blue pill**
 la referencia es: ```STM32F103C8T6```.
 
-    <div style="text-align: center;">
-    <img src="/labs/figs/lab01/MCU_sel.png" alt="MCU_sel" style="width:250px;">
-    </div>
+    <p align="center">
+    <img src="/labs/figs/lab01/MCU_sel.png" alt="MCU_sel" width="250">
+    </p>
+
 
    A la izquierda se actualizará la tabla **MCUs/MPUs List** con items asociados a esa referencia.
 
 4. En la tabla  **MCUs/MPUs List** seleccionar esta referencia:
 
-    <div style="text-align: center;">
-    <img src="/labs/figs/lab01/MCU_sel1.png" alt="MCU_sel1" style="width:450px;">
-    </div>
+    <p align="center">
+    <img src="/labs/figs/lab01/MCU_sel1.png" alt="MCU_sel1" width="400">
+    </p>
+
 
 5.  Hacer clic en el botón ```Next``` y luego aparecerá una ventana para diligenciar el nombre, ubicación y otras opciones del proyecto.
 
@@ -51,9 +55,10 @@ la referencia es: ```STM32F103C8T6```.
 
     Las demas opciones de configuración se muestran en la siguiente imágen:
 
-    <div style="text-align: center;">
-    <img src="/labs/figs/lab01/proj2.png" alt="proj2" style="width:450px;">
-    </div>
+    <p align="center">
+    <img src="/labs/figs/lab01/proj2.png" alt="proj2" width="400">
+    </p>
+
 
 5.  Hacer clic en el botón ```Next``` y luego aparecerá una ventana ```Setup STM32 target's firmware```.
 
@@ -63,9 +68,9 @@ la referencia es: ```STM32F103C8T6```.
 
 8. En la ventana principal de ```STM32CubeIDE``` encontrará lo siguiente:
 
-    <div style="text-align: center;">
-    <img src="/labs/figs/lab01/interface.png" alt="proj2" style="width:600px;">
-    </div>
+    <p align="center">
+    <img src="/labs/figs/lab01/interface.png" alt="interface" width="400">
+    </p>
 
     <span style="color:red;">Project Explorer:</span>
 
@@ -127,3 +132,5 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
     <span style="color:#e91e63;">Build Analyzer</span>.
 
     Muestra detalles del uso de memoria en la **RAM** y **FLASH** del microcontrolador.
+
+##
