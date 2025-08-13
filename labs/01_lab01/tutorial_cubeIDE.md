@@ -1,4 +1,4 @@
-# Tutorial: Introducción a STM32CubeIDE
+# Tutorial: Introducción a ```STM32CubeIDE```
 
 ## 1. Introducción
 
@@ -133,4 +133,56 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
 
     Muestra detalles del uso de memoria en la **RAM** y **FLASH** del microcontrolador.
 
-##
+## 3. Compilar y cargar el ```.elf``` en la Blue Pill
+
+### Requerimientos:
+
+* Programador **ST-Link**.
+
+* Drivers instalados para **ST-Link**.
+
+### Procedimiento:
+
+1. **Conexión física:** 
+
+    * Conectar los pines del **ST-Link** a la placa:
+
+    <p align="center">
+    <img src="/labs/figs/lab01/stlink-connection.jpg" alt="interface" width="600">
+    </p>
+
+    * Conectar el **ST-Link** al PC por USB.
+
+2. **Configuración en ```STM32CubeIDE:```**
+
+    1. Abrir el proyecto.
+
+    2. Ir a ```Run Configurations...```:
+
+        <p align="center">
+        <img src="/labs/figs/lab01/run1.png" alt="run" width="530">
+        </p>
+
+        Se abrirá la ventana ```Create, manage, and run configurations```.
+
+        <p align="center">
+        <img src="/labs/figs/lab01/run2.png" alt="run2" width="600">
+        </p>
+
+    3. Verificar que en la pestaña ```Main``` de la ventana ```Create, manage, and run configurations``` aparezca el nombre del projecto en la casilla ```Project```y la ruta al archivo binario ```.elf``` en la casilla ```C/C++ Application```, si no, seleccionar la ruta dando clic en el botón ```Search Project...```.
+
+    4. Verificar en la pestaña ```Debugger``` de la ventana ```Create, manage, and run configurations``` la siguiente configuración:
+
+        <p align="center">
+        <img src="/labs/figs/lab01/run3.png" alt="run3" width="600">
+        </p>
+
+    5. En esta misma pestaña en la sección ```Interface``` hacer clic en el botón ```Scan``` con lo cual ```STM32CubeIDE``` deberá identificar el número serial del programador ```ST-Link``` que aparecerá en la casilla  ```ST-LINK S/N```.
+
+    6. Hacer clic en el botón ```Run```.
+
+
+
+En “Interface” elegir SWD.
+
+Verificar que el dispositivo detectado coincide con tu MCU.
