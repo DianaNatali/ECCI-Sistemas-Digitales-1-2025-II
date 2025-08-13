@@ -42,7 +42,7 @@ Consultar la siguiente documentación.
 
 ## 3. Procedimiento
 
-### Con STM32
+#### Con STM32
 
 1. **Bare Metal Puro**
 
@@ -60,17 +60,19 @@ Consultar la siguiente documentación.
 
     * Seguir los pasos en de la sección[]()
 
-3. **FreeRTOS con tarea**
+3. **FreeRTOS con tarea** (En construcción )
 
     * Activar FreeRTOS en CubeMX.
 
     * Crear tarea que alterne el LED cada $500$ ms usando ```vTaskDelay()```.
 
-* **Paso 4: Pruebas y comparación**
+#### Con ESP32 (En construcción )
 
-    * Verificar que el LED parpadee correctamente.
+#### Pruebas y comparación**
 
-    * Documentar detalladamente en el archivo ```README.md``` cada uno de las implementaciones a nivel de registros y funciones, según corresponda a cada enfoque.
+* Verificar que el LED parpadee correctamente y cambiar la frecuencia del parpadeo.
+
+* Documentar detalladamente en el archivo ```README.md``` cada uno de las implementaciones a nivel de registros y funciones, según corresponda a cada enfoque.
 
     * Comparar:
 
