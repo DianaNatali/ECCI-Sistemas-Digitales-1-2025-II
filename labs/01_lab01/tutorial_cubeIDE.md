@@ -5,6 +5,7 @@
 1. [Introducción](#1-introducción)
 2. [Crear un proyecto](#2-crear-un-proyecto-en-en-cubeide)
 3. [Compilar y cargar](#3-compilar-y-cargar-el-elf-en-la-blue-pill)
+3.1 [Forzar la programación](#31-forzar-la-programación-de-la-blue-pill)
 
 
 ## 1. Introducción
@@ -209,7 +210,7 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
         </p>
 
     
-## Forzar la programación de la Blue Pill:
+### 3.1 Forzar la programación de la Blue Pill:
 
 En caso de que la programación no sea exitosa y ```STM32CubeIDE``` arroje errores que indican que no se puede establecer una comunicación ```ST-Link``` y la **Blue Pill** se recomienda:
 
