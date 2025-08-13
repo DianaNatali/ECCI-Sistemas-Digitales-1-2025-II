@@ -72,7 +72,7 @@ la referencia es: ```STM32F103C8T6```.
     <img src="/labs/figs/lab01/interface.png" alt="interface" width="600">
     </p>
 
-    <font color="red"><strong>Project Explorer:</strong></font>
+    🔴 **Project Explorer:**
 
     * Muestra la estructura del proyecto con carpetas:
     
@@ -110,17 +110,17 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
     * Contiene archivos clave como el ```.ioc``` (configuración de
     ```STM32CubeMX```)
 
-    <span style="color:#00FF1A;">Editor de Código:</span>
+    🟢 **Editor de Código:**
 
     * Espacio donde se escribe y edita el código fuente del proyecto.
     * Muestra la lógica del programa, incluyendo configuración de periféricos y bucles principales.
     * Permite agregar, modificar y depurar funciones del firmware del microcontrolador.
 
-    <span style="color:purple;">Outline</span>.
+    🟣 **Outline:**
 
     Muestra un resumen de las funciones del archivo abierto en el <span style="color:#00FF1A;">Editor de Código</span>, en este caso ```main.c```.
 
-    <span style="color:blue;">Consola de Depuración:</span>
+    🔵 **Consola de Depuración:**
 
     * Cuando NO se está en modo ```Debug```, la Consola de ```CubeIDE``` actúa como una ventana de salida del compilador y herramientas de carga.
     * Informa sobre advertencias y errores.
@@ -129,7 +129,7 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
 
     * Mensajes como *Download verified successfully* indican que la programación fue exitosa.
 
-    <span style="color:#e91e63;">Build Analyzer</span>.
+    🌸 **Build Analyzer:**
 
     Muestra detalles del uso de memoria en la **RAM** y **FLASH** del microcontrolador.
 
