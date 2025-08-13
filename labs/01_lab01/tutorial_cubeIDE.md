@@ -95,17 +95,17 @@ de inicialización (```stm32f1xx it.c```, ```system stm32f1xx.c```).
             * 📂 ```STM32F1xx_HAL_Driver/```: Archivos ```.c``` y ```.h``` de la **HAL**, que contienen funciones para usar periféricos como  ```HAL_GPIO_WritePin()```, ```HAL_UART_Transmit()```, etc.
 
             Si se usa bare metal, solo se usa **CMSIS** y no las funciones **HAL**.
-        * ```Debug```: Es creada automáticamente por ```CubeIDE``` cuando se compila en modo Debug.Contiene: 
+        * 📂 ```Debug/```: Es creada automáticamente por ```CubeIDE``` cuando se compila en modo Debug. Contiene: 
         
-        * El archivo ```.elf``` (ejecutable con información de depuración).
+            * El archivo ```.elf``` (ejecutable con información de depuración).
 
-        * Archivos ```.o``` (objetos compilados, uno por cada .c).
+            * Archivos ```.o``` (objetos compilados, uno por cada .c).
 
-        * Archivos de mapa de memoria (```.map```).
+            * Archivos de mapa de memoria (```.map```).
 
-        * El ```.bin``` si está configurado para generarlo.
+            * El ```.bin``` si está configurado para generarlo.
 
-        * Metadatos para que el depurador pueda mostrar el código fuente línea por línea.
+            * Metadatos para que el depurador pueda mostrar el código fuente línea por línea.
 
     * Contiene archivos clave como el ```.ioc``` (configuración de
     ```STM32CubeMX```)
