@@ -73,7 +73,9 @@
 
     * Crear tarea que alterne el LED cada $500$ ms usando ```vTaskDelay()```.
 
-#### Con ESP32 (En construcción ⚠️)
+#### Con ESP32 
+
+##### En linux:
 
 #### Pruebas y comparación**
 

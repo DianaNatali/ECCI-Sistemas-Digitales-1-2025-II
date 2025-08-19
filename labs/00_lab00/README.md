@@ -9,6 +9,8 @@ En este laboratorio nos enfocaremos en la instalación y configuración de las h
 2. [Git/Githuv](#2-git-y-github)
 3. [STM32CubeIDE](#3-stm32cubeide) (IDE para el microncontraldor STM32)
 4. [ESP-IDF](#4-esp-idf) (IDE para el microncontraldor ESP32)
+4.1 [Windows](#windows)
+4.2 [Linux](#linux)
 
 
 
@@ -165,35 +167,84 @@ STM32CubeIDE es un entorno de desarrollo integrado (IDE) diseñado para programa
 
 ### Windows:
 
-1. Revisar las indicaciones de la guía oficial de instalación de Espressif para Windows: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html
+1. **Revisar las indicaciones de la guía oficial de instalación de Espressif para Windows:** https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html
 
-2. Descargar el instalador: https://dl.espressif.com/dl/esp-idf/?idf=4.4
+2. **Descargar el instalador:** https://dl.espressif.com/dl/esp-idf/?idf=4.4. Se recomienda descargar únicamente el *toolchain*:
 
-3. Ejecuta el instalador:
+    <p align="center">
+    <img src="/labs/figs/lab00/esp32_1.jpeg" alt="run3" width="350">
+    </p>
 
-    * Ejecutar como administrador el archivo ```.exe``` descargado.
-    
-    * Elegir ```ESP-IDF Tools Installer```.
-    
-    * El instalador descargará e instalará:
+3. **Ejecutar el instalador:**
 
-        * Python (si no está instalado)
+    1. Ejecutar el archivo ```.exe``` que se descargó en el ítem anterior.
 
-        * Git (si no está instalado)
-        
-        * ```CMake```, ```Ninja```, ```OpenOCD```
-        
-        * ```ESP-IDF``` y sus dependencias
+    2. Seleccionar el idioma de su preferencia y leer y aceptar el Acuerdo de Licencia y hacer clic en ```Next```:
 
-    * Elige la carpeta de instalación, por ejemplo: ```C:\Espressif\frameworks\esp-idf-v5.2```
+    <p align="center">
+    <img src="/labs/figs/lab00/esp32_2.jpeg" alt="esp2" width="320">
+    </p>
 
-5. Integrar ```ESP-IDF``` con Visual Studio Code:
+    <p align="center">
+    <img src="/labs/figs/lab00/esp32_3.jpeg" alt="esp3" width="360">
+    </p>
+
+    3. Solucionar errore encontrados por el intalador haciendo clic en ```Apply Fixes```, luego hacer clic en ```Sí``` en el cuadro de diálogo que se abre y, finalmente, luego de que el instalador haya finalizado la verificación, hacer clic en ```Next```:
+
+    <p align="center">
+    <img src="/labs/figs/lab00/esp32_4.jpeg" alt="esp4" width="360">
+    </p>
+
+
+    4. Elegir la carpeta de destino de la instalación:
+
+    <p align="center">
+    <img src="/labs/figs/lab00/esp32_5.jpeg" alt="esp5" width="360">
+    </p>
+
+    5. Seleccionar componentes, los que aparecen seleccionados por defecto son suficiente, y hacer clic en ```Next```:
+
+    <p align="center">
+    <img src="/labs/figs/lab00/esp32_6.jpeg" alt="esp6" width="360">
+    </p>
+
+    6. Empezará a ejecutarse la instalación.
+
+    7. Durante la instalación de ```ESP-IDF Tools```, aparecerá una ventana emergente de Windows:
+
+        <p align="center">
+        <img src="/labs/figs/lab00/esp32_7.jpeg" alt="esp7" width="360">
+        </p>
+
+        Hacer clic en ```Instalar```. Esto instalará el *driver* ```WinUSB``` necesario para que Windows reconozca la placa **ESP32** como puerto de programación y depuración.
+
+    8. Esperar a que finalice la instalación:
+
+        <p align="center">
+        <img src="/labs/figs/lab00/esp32_8.jpeg" alt="esp8" width="360">
+        </p>
+
+
+5. **Integrar ```ESP-IDF``` con Visual Studio Code (VSC):**
 
     * En VSC hacer clic en el ícono de Extensiones (barra izquierda).
 
     * Buscar la extensión oficial de Espressif para trabajar con sus chips desde VSC, llamada ```Espressif IDF``` y hacer clic en ```Install```.
 
-6. Verificar la instalación: En la terminal integrada de VSC (menú ```Terminal > New Terminal```), ejecutar:
+        <p align="center">
+        <img src="/labs/figs/lab00/esp32_9.jpeg" alt="esp9" width="320">
+        </p>
+
+    * Aparecerá el siguiente icono:
+
+        <p align="center">
+        <img src="/labs/figs/lab00/esp32_10.jpeg" alt="esp10" width="320">
+        </p>
+
+
+    
+
+6. **Verificar la instalación:** En la terminal integrada de VSC (menú ```Terminal > New Terminal```), ejecutar:
 
     ```
     idf.py --version
