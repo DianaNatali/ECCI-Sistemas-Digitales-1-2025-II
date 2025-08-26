@@ -169,7 +169,7 @@
         </p>
 
 
-    3. Se abrirá la secciṕn ```FREERTOS Mode and Configuration```. En ```Interface```seleccionar ```CMSIS_V2```, lo que hará que en la sección ```Configuration``` aparezcan varios *widgets* para establecer los parámetros del sistema operativo:
+    3. Se abrirá la secciṕn ```FREERTOS Mode and Configuration```. En ```Interface```seleccionar ```CMSIS_V1```, lo que hará que en la sección ```Configuration``` aparezcan varios *widgets* para establecer los parámetros del sistema operativo:
 
         <p align="center">
         <img src="/labs/figs/lab00/rtos3.png" alt="rtos3" width="310">
@@ -197,13 +197,13 @@
         <img src="/labs/figs/lab00/rtos5.png" alt="rtos5" width="310">
         </p>
 
-        * ```Name:``` BlinkTask
+        * ```Name:``` BlinkerTask
 
-        * ```Priority:``` osPriorityLow (suficiente para este ejemplo simple).
+        * ```Priority:``` osPriorityNormal 
 
         * ```Stack Size:``` 128
 
-        * ```Function:``` StartBlinkTask.
+        * ```Function:``` StartBlinkerTask.
 
         y dar clic en el botón ```OK```.
 
@@ -217,7 +217,7 @@
 
         dar clic en el botón ```Yes```.
 
-    8. ```CubeMX``` generará el archivo ```freertos.c```, donde aparecerá la plantilla de la tarea ```StartBlinkTask()```.
+    8. ```CubeMX``` generará el archivo ```freertos.c```, donde aparecerá.
 
         <p align="center">
         <img src="/labs/figs/lab00/rtos7.png" alt="rtos7" width="310">
