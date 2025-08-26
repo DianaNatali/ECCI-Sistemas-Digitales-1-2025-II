@@ -241,6 +241,15 @@ STM32CubeIDE es un entorno de desarrollo integrado (IDE) diseñado para programa
         <img src="/labs/figs/lab00/esp32_10.jpeg" alt="esp10" width="320">
         </p>
 
+    * Al dar click en el icono mostrado en el icono anterior, se encontrará el siguiente menú:
+
+        <p align="center">
+        <img src="/labs/figs/lab00/esp32_11.jpeg" alt="esp11" width="320">
+        </p>
+
+         HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); 
+    HAL_Delay(500); 
+
 
     
 

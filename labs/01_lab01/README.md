@@ -60,12 +60,12 @@
 
     * Compilar y cargar el binario a la blue pill según las indicaciones dadas en [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
-2. **API HAL mínima** (En construcción ⚠️)
+2. **API/HAL mínima**
 
 
-    * Crear un proyecto vacío en ```CubeIDE``` como se explica en el tutorial [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
+    * Crear un proyecto vacío en ```CubeIDE``` como se explica en el tutorial [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md) y en clase.
 
-    * Seguir los pasos en de la sección[]()
+    * Compilar y cargar el binario a la blue pill según las indicaciones dadas en [Introducción a STM32CubeIDE](/labs/01_lab01/tutorial_cubeIDE.md).
 
 3. **FreeRTOS con tarea** (En construcción ⚠️)
 
@@ -76,6 +76,8 @@
 #### Con ESP32 
 
 ##### En linux:
+
+
 
 #### Pruebas y comparación**
 
