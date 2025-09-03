@@ -212,16 +212,18 @@
     7. Aparecerá el siguiente cuadro de diálogo:
 
         <p align="center">
-        <img src="/labs/figs/lab00/rtos6.png" alt="rtos6" width="310">
+        <img src="/labs/figs/lab00/rtos6.png" alt="rtos6" width="440">
         </p>
 
         dar clic en el botón ```Yes```.
 
-    8. ```CubeMX``` generará el archivo ```freertos.c```, donde aparecerá.
+    8. ```CubeMX``` generará el archivo ```freertos.c```, que establece la infraestructura básica de FreeRTOS en el proyecto STM32. Contiene la cabecera con información del archivo y licencia, las inclusiones de librerías necesarias (```FreeRTOS.h```, ```task.h```, ```main.h```), secciones para definiciones, variables y prototipos privados, y el soporte para la tarea Idle con memoria estática. Además, incluye bloques marcados como **USER CODE** destinados a agregar tareas y funciones propias sin que ```CubeMX``` las sobrescriba, aunque no contiene tareas específicas como ```BlinkerTask```.
 
         <p align="center">
         <img src="/labs/figs/lab00/rtos7.png" alt="rtos7" width="310">
         </p>
+
+    9. 
 
 
 ### 4.2 Con ESP32 
