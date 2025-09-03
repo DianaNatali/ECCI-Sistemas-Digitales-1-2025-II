@@ -1,4 +1,4 @@
-# Lab03: Manejo de una LCD 16x2 en modo paralelo con STM32 y ESP32
+# Lab03: LCD 16x2 en modo paralelo con STM32 y ESP32
 
 ## Índice
 

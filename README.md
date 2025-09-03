@@ -69,7 +69,7 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
   <tr>
     <tr>
     <td>4</td>
-    <td>LCD 16x2 paralelo</td>
+    <td>LCD 16x2 en modo paralelo</td>
     <td><a href="/labs/02_lab02/README.md">lab02</a></td> 
     <td> <a href=""> Link</a></td>
     <td>13 de septiembre</td>
