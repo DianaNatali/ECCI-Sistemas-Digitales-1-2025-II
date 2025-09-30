@@ -79,7 +79,7 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
     <td>9-10</td>
     <td>Lectura de ADC y visualización en LCD por I2C con STM32</td>
     <td><a href="/labs/03_lab03/README.md">lab03</a></td> 
-    <td> <a href=""> Link</a></td>
+    <td> <a href="https://classroom.github.com/a/iDiU-W94"> Link</a></td>
     <td>07 de octubre</td>
   </tr>
   <tr>
