@@ -10,7 +10,7 @@
 
 <!-- * Comprender cómo utilizar CubeMonitor para visualizar variables en tiempo real desde un microcontrolador STM32. -->
 
-* Desarrollar habilidades en programación embebida utilizando **STM32CubeIDE** y lenguaje ```C```.
+* Desarrollar habilidades en programación embebida utilizando **STM32CubeIDE** o **ESP-IDF** y lenguaje ```C```.
 
 
 ## Materiales 
