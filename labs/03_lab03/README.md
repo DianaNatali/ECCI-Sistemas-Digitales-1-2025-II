@@ -8,7 +8,7 @@
 
 * Integrar la lectura de valores analógicos y su visualización en tiempo real en la LCD.
 
-* Comprender cómo utilizar CubeMonitor para visualizar variables en tiempo real desde un microcontrolador STM32.
+<!-- * Comprender cómo utilizar CubeMonitor para visualizar variables en tiempo real desde un microcontrolador STM32. -->
 
 * Desarrollar habilidades en programación embebida utilizando **STM32CubeIDE** y lenguaje ```C```.
 
