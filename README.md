@@ -60,7 +60,7 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
   </tr>
   <tr>
   <tr>
-    <td>3</td>
+    <td>3-5</td>
     <td>Blinker</td>
     <td><a href="/labs/01_lab01/README.md">lab01</a></td> 
     <td> <a href="https://classroom.github.com/a/VjLUJMT0"> Link</a></td>
@@ -68,11 +68,19 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
   </tr>
   <tr>
     <tr>
-    <td>4</td>
+    <td>6-8</td>
     <td>LCD 16x2 en modo paralelo</td>
     <td><a href="/labs/02_lab02/README.md">lab02</a></td> 
     <td> <a href="https://classroom.github.com/a/FKXFhwY3"> Link</a></td>
     <td>13 de septiembre</td>
+  </tr>
+  <tr>
+    <tr>
+    <td>9-10</td>
+    <td>Lectura de ADC y visualización en LCD por I2C con STM32</td>
+    <td><a href="/labs/03_lab03/README.md">lab03</a></td> 
+    <td> <a href=""> Link</a></td>
+    <td>07 de octubre</td>
   </tr>
   <tr>
 
