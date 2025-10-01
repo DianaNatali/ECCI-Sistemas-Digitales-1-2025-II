@@ -83,6 +83,14 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
     <td>07 de octubre</td>
   </tr>
   <tr>
+    <tr>
+    <td>9-10</td>
+    <td>Proyecto - 1ra entrega</td>
+    <td><a href="/labs/proyecto/README.md">Lineamientos</a></td> 
+    <td> <a href="https://classroom.github.com/a/A1Z-vOsV"> Link</a></td>
+    <td>07 de octubre</td>
+  </tr>
+  <tr>
 
 
 
