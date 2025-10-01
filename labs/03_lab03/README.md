@@ -68,7 +68,7 @@
     * ```SCL``` del módulo I2C a ```PB6``` del STM32.
 
     <p align="center">
-        <img src="/labs/figs/lab03/STM32.png" alt="alt text" width=500 >
+        <img src="/labs/figs/lab03/STM32.png" alt="alt text" width=700 >
     </p>
 
 
@@ -88,7 +88,7 @@
 
 
     <p align="center">
-        <img src="/labs/figs/lab03/ESP32.png" alt="alt text" width=500 >
+        <img src="/labs/figs/lab03/ESP32.png" alt="alt text" width=700 >
     </p>
     
 ### Parte 2: Configuración del proyecto
