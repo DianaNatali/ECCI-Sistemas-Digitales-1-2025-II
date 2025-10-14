@@ -91,6 +91,14 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
     <td>07 de octubre</td>
   </tr>
   <tr>
+    <tr>
+    <td>12</td>
+    <td>Actividad evaluativa</td>
+    <td><a href="/labs/04_lab04/README.md">Actividad evaluativa</a></td> 
+    <td> <a href=""> Link</a></td>
+    <td>14 de octubre</td>
+  </tr>
+  </table>
 
 
 
