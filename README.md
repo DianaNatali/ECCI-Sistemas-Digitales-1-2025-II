@@ -93,9 +93,9 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
   <tr>
     <tr>
     <td>12</td>
-    <td>Actividad evaluativa</td>
-    <td><a href="/labs/04_lab04/README.md">Actividad evaluativa</a></td> 
-    <td> <a href=""> Link</a></td>
+    <td>Actividad evaluativa: Cronómetro</td>
+    <td><a href="/labs/04_lab04/README.md">lab04</a></td> 
+    <td> <a href="https://classroom.github.com/a/CLsrZXUk"> Link</a></td>
     <td>14 de octubre</td>
   </tr>
   </table>
