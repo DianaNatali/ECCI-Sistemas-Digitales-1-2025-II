@@ -108,7 +108,7 @@ Objetivo de esta parte:
 | 3.3V →  | 3.3V       |
 
 <p align="center">
-    <img src="/labs/figs/lab05/STM32.png" alt="alt text" width=600 >
+    <img src="/labs/figs/lab06/STM32.png" alt="alt text" width=600 >
 </p>
 
 > **Nota:** El LED integrado en la Blue Pill está conectado al pin **PC13** (activo en bajo).
@@ -123,7 +123,7 @@ Objetivo de esta parte:
 
 
 <p align="center">
-    <img src="/labs/figs/lab05/ESP32.png" alt="alt text" width=600 >
+    <img src="/labs/figs/lab06/ESP32.png" alt="alt text" width=600 >
 </p>
 
 > **Nota:** En el ESP32, el LED integrado varía según la placa. 
