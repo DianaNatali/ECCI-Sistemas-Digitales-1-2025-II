@@ -98,6 +98,22 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
     <td> <a href="https://classroom.github.com/a/CLsrZXUk"> Link</a></td>
     <td>14 de octubre</td>
   </tr>
+  <tr>
+    <tr>
+    <td>13</td>
+    <td>PWM</td>
+    <td><a href="/labs/05_lab05/README.md">lab05</a></td> 
+    <td> <a href="https://classroom.github.com/a/nb1D4FE-"> Link</a></td>
+    <td>04 de noviembre</td>
+  </tr>
+  <tr>
+    <tr>
+    <td>14</td>
+    <td>UART</td>
+    <td><a href="/labs/06_lab06/README.md">lab06</a></td> 
+    <td> <a href=""> Link</a></td>
+    <td>04 de noviembre</td>
+  </tr>
   </table>
 
 
