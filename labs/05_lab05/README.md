@@ -314,7 +314,7 @@ En la plataforma **STM32** se emplea el temporizador TIM2, utilizando los canale
                      
 
         <div align="center">
-        <img src="/labs/figs/lab05/image.png" alt="pwm" width="550" />
+        <img src="/labs/figs/lab05/pushpull.png" alt="pwm" width="550" />
         </div>
 
         **¿Por qué es necesario Push-Pull para PWM del motor?**
