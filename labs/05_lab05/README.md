@@ -1,22 +1,37 @@
 # Lab05: Generación de Señal PWM con STM32 Blue Pill o ESP32
 
+**Índice**
+
+1. [Objetivos de aprendizaje](#1-objetivos-de-aprendizake)
+2. [Materiales](#2-materiales)
+3. [Fundamente teórico](#3-fundamento-teórico)
+4. [Implementación](#4-implementación) 
+4.1 [ESP32](#41-esp32)
+4.2 [STM32](#42-stm32)
+
+## 1. Objetivos de aprendizake
+
 * Comprender y aplicar los principios del modulador por ancho de pulso (PWM) mediante la configuración y programación de periféricos en microcontroladores para el control de dispositivos electrónicos.
 
 * Identificar los conceptos fundamentales del PWM y su aplicación en sistemas embebidos.
 
 * Configurar un periférico generador de señales PWM en un microcontrolador (STM32, ESP32 u otro) usando herramientas de desarrollo adecuadas.
 
-* Variar parámetros como frecuencia y ciclo de trabajo (duty cycle) para observar sus efectos sobre la señal generada.
+* Variar parámetros como ciclo de trabajo (*duty cycle*) para observar sus efectos sobre la señal generada.
 
 * Visualizar y analizar la señal PWM generada mediante instrumentos de medición (como osciloscopios o analizadores lógicos).
 
 * Aplicar señales PWM en tareas de control básicas como regulación de brillo en LEDs o velocidad en motores DC.
 
-## Materiales 
+## 2. Materiales 
 
 * Placa de desarrollo STM32 Blue Pill (```STM32F103C8T6```) o ESP32.
 
 * Puente H L298N.
+
+    <div align="center">
+    <img src="/labs/figs/lab05/puenteH.png" alt="pwm" width="700" />
+    </div>
 
 * Motor DC.
 
@@ -27,7 +42,7 @@
 * Entorno de desarrollo.
 
 
-## Fundamento teórico 
+## 3. Fundamento teórico 
 
 ### PWM
 
@@ -62,12 +77,13 @@ $$ f = \dfrac{1}{\text{período}(T)} = \dfrac{1}{f}$$
  
  Tomado de **[1]**
 
-
- ## Explicación de la implementación de PWM en ESP32 y STM32
+## 4. Implementación
 
 En este laboratorio, se implementa el control PWM en dos plataformas: **ESP32** usando el periférico **LEDC**, y **STM32** empleando el temporizador **TIM2**. A continuación, se explica cómo se implementa el control de PWM en dos plataformas seleccionadas para trabajar en este curso: ESP32 y STM32.
 
-### 1. ESP32
+### 4.1. ESP32
+
+#### 4.1.1 Explicación
 
 El **ESP32** integra el periférico ```LEDC``` (*LED Controller*), capaz de generar señales PWM en múltiples pines ```GPIO```. Aunque está pensado para control de iluminación LED, su uso es completamente válido para motores controlados con puente H (como el que se va a usar en este laboratorio: L298N). El ```LEDC``` permite configurar:
 
@@ -161,11 +177,7 @@ En el código propuesto en Github Classroom, se genera una señal PWM en dos pin
 **Se recomienda consultar: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/ledc.html**
 
 
- #### Conexiones
-
- <!-- <div align="center">
- <img src="/laboratorios/figs/lab05/esp32.png" alt="pwm" width="450" />
- </div> -->
+#### 4.1.2 Conexiones
 
  | L298N          | ESP32                | Descripción                                                      |
 | -------------- | -------------------- | ---------------------------------------------------------------- |
@@ -180,8 +192,9 @@ En el código propuesto en Github Classroom, se genera una señal PWM en dos pin
 
 
 
-### 2. STM32
+### 4.2. STM32
 
+#### 4.2.1 Explicación
 En la plataforma **STM32** se emplea el temporizador TIM2, utilizando los canales ```CH3``` y ```CH4```, que corresponden a los pines ```PA2``` y ```PA3``` respectivamente.
 
 * **Includes y prototipo**:
@@ -412,19 +425,21 @@ En la plataforma **STM32** se emplea el temporizador TIM2, utilizando los canale
     * Si ```CC3E``` apagado y ```CC4E``` encendido → la señal está en ```IN2``` y el motor gira al lado contrario.
     * Si ambos están apagados, no hay PWM en ninguna salida → el motor se detiene.
 
-#### Conexiones:
+#### 4.2.2 Conexiones
 
 | L298N          | STM32                | Descripción                      |
 | -------------- | -------------------- | -------------------------------- |
-| **IN1**        | PA2 (TIM2_CH3)       | PWM hacia motor (sentido 1)      |
-| **IN2**        | PA3 (TIM2_CH4)       | PWM hacia motor (sentido 2)      |
-| **ENA**        | Jumper colocado o 5V | Habilita el canal A del puente H |      |
+| **IN1\***        | PA2 (TIM2_CH3)       | PWM hacia motor (sentido 1)      |
+| **IN2\***        | PA3 (TIM2_CH4)       | PWM hacia motor (sentido 2)      |
+| **ENA\***        | Jumper colocado o 5V | Habilita el canal A del puente H |      |
 | **OUT1, OUT2** | Motor                | Motor DC                         |
 | **+12V / +6V** | Alimentación motor   | Fuente externa                   |
-| **GND**        | GND STM32            | Tierra común obligatoria   
+| **GND**        | GND STM32            | Tierra común obligatoria
+
+**\*** Ver imagen del puente H L298N en la sección de
 
 
-## ¿Qué deben hacer en el laboratorio?
+## 5. ¿Qué deben hacer en el laboratorio?
 
 1. **Aceptar la tarea en GitHub Classroom**
     
