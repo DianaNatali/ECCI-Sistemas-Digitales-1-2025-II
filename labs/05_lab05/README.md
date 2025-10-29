@@ -19,9 +19,13 @@
 
 * Variar parámetros como ciclo de trabajo (*duty cycle*) para observar sus efectos sobre la señal generada.
 
-* Visualizar y analizar la señal PWM generada mediante instrumentos de medición (como osciloscopios o analizadores lógicos).
+* Visualizar y analizar la señal PWM generada mediante instrumentos de medición (como osciloscopios).
 
 * Aplicar señales PWM en tareas de control básicas como regulación de brillo en LEDs o velocidad en motores DC.
+
+* Desarrollar habilidades de programación embebida en **C** utilizando:
+  - **STM32CubeIDE** (Blue Pill)
+  - **ESP-IDF** (ESP32)
 
 ## 2. Materiales 
 
