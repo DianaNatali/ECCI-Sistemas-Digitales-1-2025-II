@@ -36,7 +36,7 @@ PWM (*Pulse Width Modulation* o Modulación por Ancho de Pulsos) es una técnica
 Esta técnica es esencial para controlar motores DC, permitiendo ajustar su velocidad y sentido de giro sin necesidad de variar físicamente el voltaje de alimentación. 
 
 <div align="center">
- <img src="/laboratorios/figs/lab05/PWM.png" alt="pwm" width="600" />
+ <img src="/labs/figs/lab05/PWM.png" alt="pwm" width="600" />
 </div>
 
 **Características clave de la señal PWM**:
