@@ -111,7 +111,7 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
     <td>14</td>
     <td>UART</td>
     <td><a href="/labs/06_lab06/README.md">lab06</a></td> 
-    <td> <a href=""> Link</a></td>
+    <td> <a href="https://classroom.github.com/a/XtQ5B9vZ"> Link</a></td>
     <td>04 de noviembre</td>
   </tr>
   </table>

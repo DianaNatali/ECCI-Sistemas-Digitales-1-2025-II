@@ -9,6 +9,9 @@
 4.1 [ESP32](#41-esp32)
 4.2 [STM32](#42-stm32)
 
+----
+
+
 ## 1. Objetivos de aprendizake
 
 * Comprender y aplicar los principios del modulador por ancho de pulso (PWM) mediante la configuración y programación de periféricos en microcontroladores para el control de dispositivos electrónicos.
