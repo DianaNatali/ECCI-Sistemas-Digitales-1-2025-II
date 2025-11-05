@@ -114,6 +114,14 @@ Cada laboratorio estará estructurado en tres componentes fundamentales:
     <td> <a href="https://classroom.github.com/a/XtQ5B9vZ"> Link</a></td>
     <td>04 de noviembre</td>
   </tr>
+  <tr>
+    <tr>
+    <td>16</td>
+    <td>Proyecto - 1ra entrega</td>
+    <td>Proyecto - 1ra entrega</td> 
+    <td> <a href="https://classroom.github.com/a/aT3JwkP2"> Link</a></td>
+    <td>18 de noviembre</td>
+  </tr>
   </table>
 
 
